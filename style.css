@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(243, 236, 249);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:#353535a4;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem ;
+}
+/* styling navbar */
+.navbar{
+    display:flex;
+}
+.nav-bar{
+    display:flex;
+    justify-content: right;
+    line-height:45px;
+    font-size: 20px;
+}
+.nav-bar span,a{
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+/* end here */
+
+/* styling humburger */
+#humburger{
+    display:none;
+}
+.nav-bar-responsive li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+/* humburger end */
+
