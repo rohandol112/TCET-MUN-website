@@ -18,6 +18,7 @@ a:hover{
     display:flex;
 }
 .nav-bar{
+    background-color: rgb(63, 63, 190);
     display:flex;
     justify-content: right;
     line-height:45px;
@@ -41,4 +42,4 @@ a:hover{
     font-size: 15px;
 }
 /* humburger end */
-
+/* Style the container for the slideshow */
